@@ -1,0 +1,50 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+.c2h-body {
+  background-color: #182630;
+  color: #dedede;
+  font-family: Roboto, sans-serif;
+}
+
+.c2h-container-fluid {
+  padding-left: 26px !important;
+  padding-right: 26px !important;
+}
+
+.c2h-col {
+  padding: 5px !important;
+}
+
+.c2h-card {
+  background-color: #1b2b37 !important;
+  color: #ccc;
+}
+
+.card-body {
+  /* Bad practise.. replace this later with custom class */
+  padding: 10px !important;
+  padding-bottom: 0px !important;
+}
+
+.card-title {
+  /* Bad practise.. replace this later with custom class */
+  opacity: 0.7;
+}
+
+.c2h-chart {
+  background-color: transparent !important;
+}
+
+.c2h-dp {
+  border: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.c2h-title {
+  font-size: 110%;
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.c2h-sub-title {
+    font-size: 95%;
+    color: rgba(255, 255, 255, 0.6) !important;  
+}
