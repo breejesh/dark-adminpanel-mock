@@ -45,6 +45,77 @@
 }
 
 .c2h-sub-title {
-    font-size: 95%;
-    color: rgba(255, 255, 255, 0.6) !important;  
+  font-size: 95%;
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.box {
+  background-color: #182630;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  flex: 1 1 auto;
+}
+
+.sparkboxes .box1 {
+  background-image: linear-gradient(100deg, #1b2b37 1%, #0396ff 100%);
+}
+
+.sparkboxes .box2 {
+  background-image: linear-gradient(100deg, #1b2b37 1%, #4c83ff 100%);
+}
+
+.sparkboxes .box3 {
+  background-image: linear-gradient(100deg, #1b2b37 1%, #fd6585 100%);
+}
+
+.sparkboxes .box4 {
+  background-image: linear-gradient(100deg, #1b2b37 1%, #5961f9 100%);
+}
+
+.spark-text {
+  font-size: 20px;
+}
+
+.fa-big {
+  font-size: 60px !important;
+  vertical-align: middle !important;
+}
+
+.box-rhs {
+  margin-left: auto;
+  padding-right: 30px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .box-rhs {
+    padding-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .spark-text {
+    font-size: 15px;
+  }
+
+  .fa-big {
+    font-size: 40px !important;
+  }
+
+  .box-rhs {
+    padding-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  .spark-text {
+    font-size: 12px;
+  }
+
+  .fa-big {
+    font-size: 25px !important;
+  }
+  .box-rhs {
+    padding-right: 10px;
+  }
 }
